@@ -1,0 +1,23 @@
+.platform .main-text {
+  color: var(--btn-clr);
+}
+
+.platform-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+.platform-grid img {
+  margin: auto;
+  cursor: pointer;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.platform-grid img:hover {
+  margin: auto;
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}

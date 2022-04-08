@@ -1,0 +1,64 @@
+/* ==== Start FAQ Accordion ==== */
+
+.faq {
+  background-color: var(--second-fg-clr);
+}
+
+.faq .main-text {
+  color: #fff;
+}
+
+.accordion {
+  width: 35vw;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 567px) {
+  .accordion {
+    width: 80vw;
+    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+  }
+}
+@media screen and (min-width: 568px) and (max-width: 991px) {
+  .accordion {
+    width: 60vw;
+  }
+}
+.accordion-item {
+  border-radius: 5px;
+  background-color: #fdfdfd;
+  margin-bottom: 20px;
+  position: relative;
+  svg {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 25px;
+  }
+}
+
+.accordion-header {
+  padding: 15px;
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+  position: relative;
+  border: 3px solid transparent;
+}
+
+.accordion-header.show {
+  color: var(--btn-clr);
+  border: 3px solid var(--btn-clr);
+  font-weight: 600;
+}
+
+.accordion-body {
+  margin: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.accordion-body p {
+  padding: 1px 20px 25px;
+  margin-top: 15px;
+  line-height: 1.8;
+}

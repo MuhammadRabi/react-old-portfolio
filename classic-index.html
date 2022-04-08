@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="A personal portfolio for front end developer Muhammad Rabi show some of previous work">
+    <!-- normalize.css -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <!-- bootstrap grid 4.60-->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap-grid.min.css"
+        integrity="sha512-cKoGpmS4czjv58PNt1YTHxg0wUDlctZyp9KUxQpdbAft+XqnyKvDvcGX0QYCgCohQenOuyGSl8l1f7/+axAqyg=="
+        crossorigin="anonymous" />
+    <!-- google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,900;1,500;1,600;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- my main style file-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- fav icon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Muhammad Rabi</title>
+</head>
+
+<body>
+    <!-- start header -->
+    <header>
+        <div class="hero" id="hero">
+            <div class="menu-toggle"></div>
+            <nav class="sidebar">
+                <ul>
+                    <li><a href="#hero" data-link=".hero">home</a></li>
+                    <li><a href="#about" data-link=".about-us">about me</a></li>
+                    <li><a href="#services" data-link=".our-services">services</a></li>
+                    <li><a href="#faq" data-link=".faq">FAQ</a></li>
+                    <li><a href="#recent-works" data-link=".recent-works">recent projects</a></li>
+                </ul>
+            </nav>
+            <!-- sidebar overlay-->
+            <a class="sidebar-overlay-layer" href="javascript:void(0)"></a>
+            <div class="main-pic">
+                <img src="img/bg.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="hero-text">
+                <p><span>Hello</span>, I`m</p>
+                <h1>Muhammad Rabi</h1>
+                <h2>I`m a Front End Developer</h2>
+                <p>I'm a Front-End Web Dev who can translate UI/UX design to modern code and write maintainable,
+                    scalable, responsive, and
+                    cross-browser code. Skilled in pixel-perfect PSD-to-HTML, CSS, SASS, JavaScript, and Bootstrap
+                </p>
+                <a href="mailto:contact@muhammadrabi.com" class="btn">hire me</a>
+                <div class="social-icons">
+                    <a href="https://github.com/MuhammadRabi" rel="noopener" target="_blank"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/rabi9504/" rel="noopener" target="_blank"><i
+                            class=" fab fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/c/MohamedRabi" rel="noopener" target="_blank"><i
+                            class="fab fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/in/muhammad-rabi-07a51b202/" rel="noopener" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- === start about us section === -->
+    <section class="about-us" id="about">
+        <div class="container">
+            <h2 class="main-text special-heading-dark">about me</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.
+                        I'm interested in entire front end spectrum and seeking work on ambitious projects with positive
+                        people</p>
+                    <p>I’m interested in freelance opportunities – especially ambitious or large projects. However, if
+                        you have other request
+                        or question, don’t hesitate to use the form.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/bg1.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- === end about us section === -->
+    <!-- start toolbox section -->
+    <section class="toolbox">
+        <div class="container">
+            <h2 class="main-text special-heading-light">my toolbox</h2>
+            <div class=" toolbox-grid">
+                <div class="skill-box"><i class="fab fa-sass"></i>
+                </div>
+                <div class="skill-box"><i class="fab fa-gulp"></i>
+                </div>
+                <div class="skill-box"><i class="fab fa-js"></i>
+                </div>
+                <div class="skill-box"><i class="fab fa-wordpress"></i>
+                </div>
+                <div class="skill-box"><i class="fab fa-bootstrap"></i>
+                </div>
+                <div class="skill-box"><i class="fab fa-css3-alt"></i>
+                </div>
+                <div class="skill-box"><i class="fab fa-html5"></i>
+                </div>
+                <div class="skill-box"><i class="fab fa-figma"></i>
+                </div>
+                <div class="skill-box"><i class="fab fa-git-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- === start our services section === -->
+    <section class="our-services" id="services">
+        <div class="container">
+            <h2 class="main-text special-heading-light">our services</h2>
+            <p class="main-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos illo mollitia quo,
+                molestiae
+                saepe totam iste
+                nulla exercitationem unde maxime!</p>
+            <div class="card-container" data-aos="zoom-in-up">
+                <div class="card">
+                    <img src="img/icon1.png" class="img-fluid" alt="">
+                    <h3>pexel perfect</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis maxime voluptate tempore
+                        facere blanditiis sed, sunt corrupti temporibus cum quos! Quae architecto earum velit esse?
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="img/icon2.png" class="img-fluid" alt="">
+                    <h3>full support</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis maxime voluptate tempore
+                        facere blanditiis sed, sunt corrupti temporibus cum quos! Quae architecto earum velit esse?
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="img/icon3.png" class="img-fluid" alt="">
+                    <h3>clean code</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis maxime voluptate tempore
+                        facere blanditiis sed, sunt corrupti temporibus cum quos! Quae architecto earum velit esse?
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="img/icon4.png" class="img-fluid" alt="">
+                    <h3>responsive design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis maxime voluptate tempore
+                        facere blanditiis sed, sunt corrupti temporibus cum quos! Quae architecto earum velit esse?
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="img/icon5.png" class="img-fluid" alt="">
+                    <h3>PSD To HTML</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis maxime voluptate tempore
+                        facere blanditiis sed, sunt corrupti temporibus cum quos! Quae architecto earum velit esse?
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="img/icon6.png" class="img-fluid" alt="">
+                    <h3>SEO friendly</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis maxime voluptate tempore
+                        facere blanditiis sed, sunt corrupti temporibus cum quos! Quae architecto earum velit esse?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- === end our services section === -->
+    <!-- === start FAQ Accordion section === -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="main-text special-heading-dark">frequently asked</h2>
+            <p class="main-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos illo mollitia quo,
+                molestiae
+                saepe totam iste
+                nulla exercitationem unde maxime!</p>
+            <div class="accordion">
+                <!-- Accordion Item #01-->
+                <div class="one">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <p>Do you have any hoobies?</p>
+                        </div>
+                        <div class="accordion-body">
+                            <p>yes, I like reading books, following soccer, watching movies and watching documentaries
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Accordion Item #02-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <p>Do you read books?</p>
+                        </div>
+                        <div class="accordion-body">
+                            <p>I read in history, fantasy, economics and novels. I also read magazines like national
+                                geographic</p>
+                        </div>
+                    </div>
+                    <!-- Accordion Item #03-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <p>Do you hire someone else to assist you?</p>
+                        </div>
+                        <div class="accordion-body">
+                            <p>currently, I focus on providing front-End services, so if any back-end issues stucked I
+                                can
+                                call for help!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="two">
+                    <!-- Accordion Item #04-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <p>Do you charge per hour or per project?</p>
+                        </div>
+                        <div class="accordion-body">
+                            <p>Charging per project suits me better, then I can focus on creating something great
+                                without counting the hours.</p>
+                        </div>
+                    </div>
+                    <!-- Accordion Item #05-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <p>when do you available for work?</p>
+                        </div>
+                        <div class="accordion-body">
+                            <p>I'm a full-time freelancer so you can get in touch 24/7 through communication channels
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Accordion Item #06-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <p>How can we reach you?</p>
+                        </div>
+                        <div class="accordion-body">
+                            <p>you can found me on different global freelancer platforms like <i>Freelancer, Upwork and
+                                    mostaql</i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- === End FAQ Accordion section === -->
+    <!-- === Start platforms section === -->
+    <section class="platform">
+        <div class="container">
+            <h2 class="main-text special-heading-light">freelancer platforms</h2>
+            <div class="platform-grid">
+                <a href="https://www.upwork.com/freelancers/~01586210b75f2c3f8f" rel="noopener" target="_blank">
+                    <img src="img/upwork.png" alt="upwork" class="img-fluid"></a>
+                <a href="https://www.freelancer.com/u/MuhammadRabi" rel="noopener" target="_blank"><img
+                        src="img/freelancer.png" alt="freelancer" class="img-fluid"></a>
+                <a href="https://mostaql.com/u/Muhammad_Rabi" rel="noopener" target="_blank"><img src="img/mostaql.png"
+                        alt="mostaql" class="img-fluid"></a>
+            </div>
+        </div>
+    </section>
+    <!-- === End platforms section === -->
+    <!-- === start recent works section === -->
+    <section class="recent-works">
+        <div class="container">
+            <h2 class="main-text special-heading-light">recent projects</h2>
+            <p class="main-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos illo mollitia quo,
+                molestiae
+                saepe totam iste
+                nulla exercitationem unde maxime!</p>
+            <div class="card-container">
+                <!-- project #01 -->
+                <div class="product-box">
+                    <div class="overlay">
+                        <a href="https://github.com/MuhammadRabi/P20-Rapid" rel="noopener" target="_blank">view
+                            code</a>
+                        <a href="https://muhammadrabi.github.io/P20-Rapid/" rel="noopener" target="_blank">visit
+                            website</a>
+                    </div>
+                    <i class="fas fa-city"></i>
+                </div>
+                <!-- project #02 -->
+                <div class="product-box">
+                    <div class="overlay">
+                        <a href="https://github.com/MuhammadRabi/P24-Luxe" rel="noopener" target="_blank">view code</a>
+                        <a href="https://muhammadrabi.github.io/P24-Luxe/" rel="noopener" target="_blank">visit
+                            website</a>
+                    </div>
+                    <i class="fas fa-hammer"></i>
+                </div>
+                <!-- project #03 -->
+                <div class="product-box">
+                    <div class="overlay">
+                        <a href="https://github.com/MuhammadRabi/P27-GreenRent" rel="noopener" target="_blank">view
+                            code</a>
+                        <a href="https://muhammadrabi.github.io/P27-GreenRent/" rel="noopener" target="_blank">visit
+                            website</a>
+                    </div>
+                    <i class="fas fa-couch"></i>
+                </div>
+                <!-- project #04 -->
+                <div class="product-box">
+                    <div class="overlay">
+                        <a href="https://github.com/MuhammadRabi/P22-Kasper" rel="noopener" target="_blank">view
+                            code</a>
+                        <a href="https://muhammadrabi.github.io/P22-Kasper/" rel="noopener" target="_blank">visit
+                            website</a>
+                    </div>
+                    <i class="fas fa-dolly-flatbed"></i>
+                </div>
+                <!-- project #05 -->
+                <div class="product-box">
+                    <div class="overlay">
+                        <a href="https://github.com/MuhammadRabi/P26-DoopShapes" rel="noopener" target="_blank">view
+                            code</a>
+                        <a href="https://muhammadrabi.github.io/P26-DoopShapes/" rel="noopener" target="_blank">visit
+                            website</a>
+                    </div>
+                    <i class="fab fa-reddit-square"></i>
+                </div>
+                <!-- project #06 -->
+                <div class="product-box">
+                    <div class="overlay">
+                        <a href="https://github.com/MuhammadRabi/P25-Bondi" rel="noopener" target="_blank">view code</a>
+                        <a href="https://muhammadrabi.github.io/P25-Bondi/" rel="noopener" target="_blank">visit
+                            website</a>
+                    </div>
+                    <i class="fas fa-palette"></i>
+                </div>
+                <!-- project #07 -->
+                <div class="product-box">
+                    <div class="overlay">
+                        <a href="https://github.com/MuhammadRabi/P21-Leon" rel="noopener" target="_blank">view code</a>
+                        <a href="https://muhammadrabi.github.io/P21-Leon/" rel="noopener" target="_blank">visit
+                            website</a>
+                    </div>
+                    <i class="fab fa-cloudversify"></i>
+                </div>
+                <!-- project #08 -->
+                <div class="product-box">
+                    <div class="overlay">
+                        <a href="https://github.com/MuhammadRabi/P17-FoodPrototype" rel="noopener" target="_blank">view
+                            code</a>
+                        <a href="https://muhammadrabi.github.io/P17-FoodPrototype/" rel="noopener" target="_blank">visit
+                            website</a>
+                    </div>
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <!-- project #09 -->
+                <div class="product-box">
+                    <div class="overlay">
+                        <a href="https://github.com/MuhammadRabi/P23-NightMode" rel="noopener" target="_blank">view
+                            code</a>
+                        <a href="https://muhammadrabi.github.io/P23-NightMode/" rel="noopener" target="_blank">visit
+                            website</a>
+                    </div>
+                    <i class="fas fa-moon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- === end recent works section === -->
+    <!-- === start video section === -->
+    <div class="vid">
+        <div class="container">
+            <iframe src="https://www.youtube.com/embed/HbO1qcqvh04" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+    <!-- === End video section === -->
+    <!-- === start footer section === -->
+    <footer>
+        <div class="container">
+            <p>Copyrights © 2021 Online tutorials. all right reserved </p>
+        </div>
+    </footer>
+    <!-- === end footer section === -->
+    <!-- === scroll to top button === -->
+
+    <!-- === scroll to top button === -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
