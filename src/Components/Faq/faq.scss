@@ -28,20 +28,22 @@
   border-radius: 5px;
   background-color: #fdfdfd;
   margin-bottom: 20px;
-  position: relative;
+  padding: 10px;
   svg {
-    position: absolute;
-    top: 20px;
-    right: 25px;
     font-size: 25px;
+  }
+  h2 {
+    font-weight: 600;
   }
 }
 
 .accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 15px;
   border-radius: 5px 5px 0 0;
   cursor: pointer;
-  position: relative;
   border: 3px solid transparent;
 }
 
@@ -52,13 +54,18 @@
 }
 
 .accordion-body {
-  margin: 0;
-  overflow: hidden;
-  transition: max-height 0.5s ease-in-out;
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-row 0.3s ease-in-out;
+
+  &.active {
+    grid-template-rows: 1fr;
+  }
 }
 
-.accordion-body p {
-  padding: 1px 20px 25px;
-  margin-top: 15px;
-  line-height: 1.8;
+article p {
+  overflow: hidden;
+  line-height: 1.6;
+  padding: 0 20px;
+  color: #646464;
 }

@@ -14,6 +14,8 @@ html {
 .container {
   width: 80vw;
   margin: 0 auto;
+  padding: 0 125px;
+    
 }
 
 :root {
@@ -40,7 +42,6 @@ a:hover {
   width: 50px;
   left: 50%;
   padding: 5px;
-  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   text-align: center;
   border-bottom: 5px solid #fff;
@@ -52,7 +53,6 @@ a:hover {
   padding: 5px;
   width: 50px;
   left: 50%;
-  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   text-align: center;
   border-bottom: 5px solid #000;
@@ -105,6 +105,10 @@ section {
 .toolbox h2 {
   margin: auto;
   color: var(--btn-clr);
+
+  width: -webkit-fit-content;
+
+  width: -moz-fit-content;
 
   width: fit-content;
   position: relative;

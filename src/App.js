@@ -1,14 +1,15 @@
-import "./App.css"
-import "./index.css"
-import Header from "./Components/Header/Header"
-import About from "./Components/About"
-import Services from "./Components/Services/Services"
-import Faq from "./Components/Faq/Faq"
-import Platform from "./Components/Platform/Platform"
-import Projects from "./Components/Projects/Projects"
-import Video from "./Components/Video"
-import Footer from "./Components/Footer"
-import Scroll from "./Components/UI/Scroll"
+import "./App.css";
+import "./index.css";
+import Header from "./Components/Header/Header";
+import About from "./Components/About";
+import Services from "./Components/Services/Services";
+import Faq from "./Components/Faq/Faq";
+import Platform from "./Components/Platform/Platform";
+import Projects from "./Components/Projects/Projects";
+import Video from "./Components/Video";
+import Footer from "./Components/Footer";
+import Scroll from "./Components/UI/Scroll";
+import Layout from "./Components/UI/Layout";
 function App() {
   return (
     <>
@@ -22,7 +23,7 @@ function App() {
       <Footer />
       <Scroll />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

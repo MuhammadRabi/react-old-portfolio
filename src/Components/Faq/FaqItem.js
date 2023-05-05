@@ -1,22 +1,24 @@
-import React, { useState } from "react"
-import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai"
+import React, { useState } from "react";
+import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 
 function FaqItem({ question, answer }) {
-  const [showAnswer, setShowAnswer] = useState(false)
+  const [showAnswer, setShowAnswer] = useState(false);
   return (
-    <div className="accordion-item">
-      {showAnswer ? <AiOutlineMinus /> : <AiOutlinePlus />}
+    <article className="accordion-item">
       <div
         className="accordion-header"
         onClick={() => setShowAnswer(!showAnswer)}
       >
-        <p>{question}</p>
+        <h2>{question}</h2>
+        {showAnswer ? <AiOutlineMinus /> : <AiOutlinePlus />}
       </div>
-      <div className="accordion-body">{showAnswer && <p>{answer}</p>}</div>
-    </div>
-  )
+      <div className={`accordion-body ${showAnswer ? "active" : ""}`}>
+        <p>{answer}</p>
+      </div>
+    </article>
+  );
 }
 
-export default FaqItem
+export default FaqItem;
 
 //

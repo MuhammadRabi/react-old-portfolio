@@ -1,5 +1,5 @@
-import React from "react"
-import "./about.scss"
+import React from "react";
+import "./about.scss";
 
 function About() {
   return (
@@ -8,7 +8,7 @@ function About() {
         <h2 className="main-text main-heading special-heading-dark">
           about me
         </h2>
-        <div className="content flex flex-col lg:flex-row">
+        <div className="content mt-12 flex flex-col lg:flex-row">
           <div className="about-text my-20 text-left pl-10 order-2 flex-1">
             <p>
               I like to code things from scratch, and enjoy bringing ideas to
@@ -27,7 +27,7 @@ function About() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default About
+export default About;
