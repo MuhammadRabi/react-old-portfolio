@@ -11,13 +11,13 @@ html {
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
-.container {
+/* .container {
   width: 80vw;
   margin: 0 auto;
   padding: 0 125px;
     
 }
-
+ */
 :root {
   --main-fg-clr: #1b1b1b;
   --light-fg-clr: #bebaba;
@@ -35,7 +35,7 @@ a:hover {
   text-decoration: none;
 }
 
-.special-heading-dark:after {
+/* .special-heading-dark:after {
   content: "";
   position: absolute;
   display: block;
@@ -45,8 +45,8 @@ a:hover {
   transform: translateX(-50%);
   text-align: center;
   border-bottom: 5px solid #fff;
-}
-.special-heading-light:after {
+} */
+/* .special-heading-light:after {
   content: "";
   position: absolute;
   display: block;
@@ -56,14 +56,13 @@ a:hover {
   transform: translateX(-50%);
   text-align: center;
   border-bottom: 5px solid #000;
-}
+} */
 
 .main-text {
   width: 50%;
   margin: auto;
   text-align: center;
   text-transform: capitalize;
-  padding-bottom: 25px;
 }
 
 @media screen and (max-width: 678px) {
@@ -144,3 +143,9 @@ iframe {
   height: 315px;
   border: 0;
 }
+
+
+
+  .page-container {
+    @apply px-3 lg:px-24 md:px-12;
+  }

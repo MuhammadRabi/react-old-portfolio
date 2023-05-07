@@ -4,26 +4,6 @@
   background-color: var(--second-fg-clr);
 }
 
-.faq .main-text {
-  color: #fff;
-}
-
-.accordion {
-  width: 35vw;
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 567px) {
-  .accordion {
-    width: 80vw;
-    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
-  }
-}
-@media screen and (min-width: 568px) and (max-width: 991px) {
-  .accordion {
-    width: 60vw;
-  }
-}
 .accordion-item {
   border-radius: 5px;
   background-color: #fdfdfd;

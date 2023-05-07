@@ -1,32 +1,7 @@
-.recent-works h2 {
-  position: relative;
-  color: var(--btn-clr);
-}
-
-.recent-works .product-box {
-  position: relative;
-  flex-direction: column;
-  background-color: #fdfdfd;
-  padding: 20px 20px;
-  border-radius: 15px;
-  transition: 0.5s ease-in-out;
-  .project-btns {
-    z-index: 10;
-  }
-  img {
-    position: relative;
-    border-radius: 15px;
-    height: 250px;
-    object-fit: cover;
-    display: flex;
-  }
-}
-.recent-works img .overlay {
-  border-radius: 15px;
-}
-
 .recent-works .product-box a {
   display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   font-size: 12px;
   padding: 8px 11px;
@@ -54,7 +29,7 @@
   border-radius: 15px;
   color: #fff;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.8);
   transition: 0.5s ease-in-out;
   opacity: 0;
 }
