@@ -1,65 +1,76 @@
+import img01 from "../../assets/images/01.jpeg";
+import img02 from "../../assets/images/02.jpeg";
+import img03 from "../../assets/images/03.jpg";
+import img04 from "../../assets/images/10.jpg";
+import img05 from "../../assets/images/05.jpeg";
+import img06 from "../../assets/images/06.jpeg";
+import img07 from "../../assets/images/colorful-hero.jpeg";
+import img08 from "../../assets/images/08.jpg";
+import img09 from "../../assets/images/09.jpg";
+import img10 from "../../assets/images/04.jpg";
+
 const projectData = [
   {
     id: 1,
     repo: "https://github.com/MuhammadRabi/P20-Rapid",
     url: "https://muhammadrabi.github.io/P20-Rapid/",
-    image: require("../../img/01.jpeg"),
+    image: img01,
   },
   {
     id: 2,
     repo: "https://github.com/MuhammadRabi/P24-Luxe",
     url: "https://muhammadrabi.github.io/P24-Luxe/",
-    image: require("../../img/02.jpeg"),
+    image: img02,
   },
   {
     id: 3,
     repo: "https://github.com/MuhammadRabi/P27-GreenRent",
     url: "https://muhammadrabi.github.io/P27-GreenRent/",
-    image: require("../../img/03.jpg"),
+    image: img03,
   },
   {
     id: 4,
     repo: "https://github.com/MuhammadRabi/P15-Watches",
     url: "https://muhammadrabi.github.io/P15-Watches/",
-    image: require("../../img/10.jpg"),
+    image: img04,
   },
 
   {
     id: 5,
     repo: "https://github.com/MuhammadRabi/P26-DoopShapes",
     url: "https://muhammadrabi.github.io/P26-DoopShapes/",
-    image: require("../../img/05.jpeg"),
+    image: img05,
   },
   {
     id: 6,
     repo: "https://github.com/MuhammadRabi/P25-Bondi",
     url: "https://muhammadrabi.github.io/P25-Bondi/",
-    image: require("../../img/06.jpeg"),
+    image: img06,
   },
   {
     id: 7,
     repo: "https://github.com/MuhammadRabi/P21-Leon",
     url: "https://muhammadrabi.github.io/P21-Leon/",
-    image: require("../../img/colorful-hero.jpeg"),
+    image: img07,
   },
   {
     id: 8,
     repo: "https://github.com/MuhammadRabi/P17-FoodPrototype",
     url: "https://muhammadrabi.github.io/P17-FoodPrototype/",
-    image: require("../../img/08.jpg"),
+    image: img08,
   },
   {
     id: 9,
     repo: "https://github.com/MuhammadRabi/P23-NightMode",
     url: "https://muhammadrabi.github.io/P23-NightMode/",
-    image: require("../../img/09.jpg"),
+    image: img09,
   },
   {
     id: 10,
     repo: "https://github.com/MuhammadRabi/P22-Kasper",
     url: "https://muhammadrabi.github.io/P22-Kasper/",
-    image: require("../../img/04.jpg"),
+    image: img10,
   },
-]
+];
 //image: require("../../img/coca.jpeg"),
-export default projectData
+export default projectData;

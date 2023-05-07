@@ -9,7 +9,7 @@ import Projects from "./Components/Projects/Projects";
 import Video from "./Components/Video";
 import Footer from "./Components/Footer";
 import Scroll from "./Components/UI/Scroll";
-import Layout from "./Components/UI/Layout";
+
 function App() {
   return (
     <>
