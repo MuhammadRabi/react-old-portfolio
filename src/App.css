@@ -115,8 +115,7 @@ iframe {
   }
 
 
-    .accordion-body {
-      &.active {
+    .accordion-body.active {
         grid-template-rows: 1fr;
       }
-    }
+    

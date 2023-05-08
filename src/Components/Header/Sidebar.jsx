@@ -3,7 +3,7 @@ import { FaRegWindowClose, FaAlignJustify } from "react-icons/fa";
 
 import { links } from "./links";
 import SidebarItem from "./SidebarItem";
-function Sidebar() {
+const Sidebar = () => {
   const [showSidebar, setShowSidebar] = useState(false);
   return (
     <>
@@ -19,9 +19,9 @@ function Sidebar() {
       </div>
 
       <aside
-        className={`fixed top-0 right-0 z-50 flex flex-col justify-center ${
+        className={`fixed top-0 z-50 flex flex-col justify-center ${
           showSidebar ? "right-0" : "-right-full"
-        } h-full p-24 w-full md:w-1/3 duration-700  sidebar bg-dark`}
+        } h-full p-24 w-full lg:w-1/3 duration-700  sidebar bg-dark`}
       >
         <ul className="flex flex-col items-center justify-center space-y-8">
           {links.map((link) => {
@@ -31,6 +31,6 @@ function Sidebar() {
       </aside>
     </>
   );
-}
+};
 
 export default Sidebar;

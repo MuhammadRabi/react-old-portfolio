@@ -17,7 +17,7 @@ function FaqItem({ question, answer }) {
         )}
       </div>
       <div
-        className={`accordion-body grid grid-rows-[0] duration-300 ${
+        className={`accordion-body grid grid-rows-[0] duration-700 ${
           showAnswer ? "active" : ""
         }`}
       >
