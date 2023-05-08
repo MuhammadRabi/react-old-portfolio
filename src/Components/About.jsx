@@ -1,10 +1,10 @@
 import React from "react";
-import "./about.scss";
 import SectionTitle from "./SectionTitle";
 import coverImage from "../assets/images/bg1.jpg";
-function About() {
+
+const About = () => {
   return (
-    <section className="text-white page-container about-us">
+    <section className="text-white bg-darkest page-container about-us">
       <SectionTitle title="about me" dark />
       <div className="flex flex-col justify-between mt-12 content lg:flex-row">
         <div className="flex-1 order-2 pl-10 my-20 leading-loose text-left about-text">
@@ -20,11 +20,11 @@ function About() {
           </p>
         </div>
         <div className="flex-1 order-1 about-image">
-          <img src={coverImage} className="object-cover" alt="" />
+          <img src={coverImage} className="object-cover rounded-sm" alt="" />
         </div>
       </div>
     </section>
   );
-}
+};
 
 export default About;

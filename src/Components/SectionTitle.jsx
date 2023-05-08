@@ -2,7 +2,7 @@ const SectionTitle = ({ title, dark }) => {
   return (
     <>
       <h2
-        className={`main-text main-heading special-heading-light ${
+        className={`text-xl md:text-3xl font-bold text-center capitalize  ${
           dark ? "text-white" : "text-main"
         }`}
       >

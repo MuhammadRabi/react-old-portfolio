@@ -1,14 +1,13 @@
 import PlatformItem from "./PlatformItem";
-import "./platform.scss";
 import SectionTitle from "../SectionTitle";
 import upwork from "../../assets/images/upwork.png";
 import freelancer from "../../assets/images/freelancer.png";
 import mostaql from "../../assets/images/mostaql.png";
 const Platform = () => {
   return (
-    <section className="page-container platform">
+    <section className="page-container">
       <SectionTitle title="platforms" />
-      <div className="platform-grid">
+      <div className="grid items-center justify-center gap-12 mt-12 platform-grid grid-cols-320">
         <PlatformItem
           image={upwork}
           title="upwork"

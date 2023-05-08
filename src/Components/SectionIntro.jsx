@@ -1,7 +1,7 @@
 const SectionIntro = ({ content, dark }) => {
   return (
     <p
-      className={`w-1/2 mx-auto mt-6 mb-12 text-center ${
+      className={`w-10/12 md:w-1/2 mx-auto my-12 text-center ${
         dark ? "text-white" : "text-[#333]"
       }`}
     >

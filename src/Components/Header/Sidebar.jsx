@@ -1,53 +1,36 @@
-import React, { useState } from "react"
-import { FaRegWindowClose, FaAlignJustify } from "react-icons/fa"
+import { useState } from "react";
+import { FaRegWindowClose, FaAlignJustify } from "react-icons/fa";
 
+import { links } from "./links";
+import SidebarItem from "./SidebarItem";
 function Sidebar() {
-  const [showSidebar, setShowSidebar] = useState(false)
+  const [showSidebar, setShowSidebar] = useState(false);
   return (
     <>
       <div
-        className="menu-toggle fixed hover:scale-125"
+        className="fixed menu-toggle hover:scale-125"
         onClick={() => setShowSidebar(!showSidebar)}
       >
         {showSidebar ? (
           <FaRegWindowClose className="text-gray-400" />
         ) : (
-          <FaAlignJustify />
+          <FaAlignJustify className="text-darkest" />
         )}
       </div>
-      {showSidebar && (
-        <nav className="sidebar">
-          <ul>
-            <li>
-              <a href="#hero" data-link=".hero">
-                home
-              </a>
-            </li>
-            <li>
-              <a href="#about" data-link=".about-us">
-                about me
-              </a>
-            </li>
-            <li>
-              <a href="#services" data-link=".our-services">
-                services
-              </a>
-            </li>
-            <li>
-              <a href="#faq" data-link=".faq">
-                FAQ
-              </a>
-            </li>
-            <li>
-              <a href="#recent-works" data-link=".recent-works">
-                recent projects
-              </a>
-            </li>
-          </ul>
-        </nav>
-      )}
+
+      <aside
+        className={`fixed top-0 right-0 z-50 flex flex-col justify-center ${
+          showSidebar ? "right-0" : "-right-full"
+        } h-full p-24 w-full md:w-1/3 duration-700  sidebar bg-dark`}
+      >
+        <ul className="flex flex-col items-center justify-center space-y-8">
+          {links.map((link) => {
+            return <SidebarItem key={link.id} {...link} />;
+          })}
+        </ul>
+      </aside>
     </>
-  )
+  );
 }
 
-export default Sidebar
+export default Sidebar;

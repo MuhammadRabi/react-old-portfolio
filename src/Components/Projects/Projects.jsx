@@ -1,6 +1,5 @@
 import ProjectItem from "./ProjectItem";
 import projectData from "./projectsData";
-import "./projects.scss";
 import SectionTitle from "../SectionTitle";
 import SectionIntro from "../SectionIntro";
 

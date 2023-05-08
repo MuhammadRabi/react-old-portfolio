@@ -11,13 +11,7 @@ html {
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
-/* .container {
-  width: 80vw;
-  margin: 0 auto;
-  padding: 0 125px;
-    
-}
- */
+
 :root {
   --main-fg-clr: #1b1b1b;
   --light-fg-clr: #bebaba;
@@ -26,44 +20,14 @@ html {
   --btn-clr: #00bcd4;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
 
-a:hover {
-  text-decoration: none;
-}
-
-/* .special-heading-dark:after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  left: 50%;
-  padding: 5px;
-  transform: translateX(-50%);
-  text-align: center;
-  border-bottom: 5px solid #fff;
-} */
-/* .special-heading-light:after {
-  content: "";
-  position: absolute;
-  display: block;
-  padding: 5px;
-  width: 50px;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  border-bottom: 5px solid #000;
-} */
-
+/* 
 .main-text {
   width: 50%;
   margin: auto;
   text-align: center;
   text-transform: capitalize;
-}
+} */
 
 @media screen and (max-width: 678px) {
   .main-text {
@@ -149,3 +113,10 @@ iframe {
   .page-container {
     @apply px-3 lg:px-24 md:px-12;
   }
+
+
+    .accordion-body {
+      &.active {
+        grid-template-rows: 1fr;
+      }
+    }

@@ -1,5 +1,4 @@
 import ServiceItem from "./ServiceItem";
-import "./services.scss";
 import SectionTitle from "../SectionTitle";
 import { services } from "./ServicesData";
 import SectionIntro from "../SectionIntro";

@@ -1,11 +1,10 @@
 import React from "react";
-import "./footer.scss";
 
 function Footer() {
   return (
-    <footer className="p-4 page-container">
+    <footer className="p-4 page-container bg-dark">
       <div>
-        <p className="text-center capitalize">
+        <p className="text-xs text-center capitalize text-darker">
           Copyrights © 2021 Online tutorials. all right reserved{" "}
         </p>
       </div>

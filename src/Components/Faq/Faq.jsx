@@ -1,11 +1,10 @@
 import SectionTitle from "../SectionTitle";
 import FaqItem from "./FaqItem";
 import SectionIntro from "../SectionIntro";
-import "./faq.scss";
 import faqData from "./faqData";
 const Faq = () => {
   return (
-    <section className="page-container faq">
+    <section className="page-container faq bg-dark">
       <SectionTitle title="frequently asked" dark />
       <SectionIntro
         content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos illo

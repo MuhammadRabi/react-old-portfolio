@@ -72,5 +72,4 @@ const projectData = [
     image: img10,
   },
 ];
-//image: require("../../img/coca.jpeg"),
 export default projectData;

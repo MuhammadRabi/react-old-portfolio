@@ -1,16 +1,16 @@
-import React from "react"
+import React from "react";
 import {
   FaFacebookSquare,
   FaLinkedin,
   FaGithubSquare,
   FaYoutube,
-} from "react-icons/fa"
+} from "react-icons/fa";
 
 function HeroText() {
   return (
-    <div className="hero-text text-center">
+    <div className="text-center hero-text">
       <p>
-        <span>Hello</span>, I`m
+        <span className="text-main">Hello</span>, I`m
       </p>
       <h1>Muhammad Rabi</h1>
       <h2 className="mb-2">I`m a Front End Developer</h2>
@@ -20,7 +20,10 @@ function HeroText() {
         Skilled in pixel-perfect PSD-to-HTML, CSS, SASS, JavaScript, and
         Bootstrap
       </p>
-      <a href="mailto:contact@muhammadrabi.com" className="btn mt-5">
+      <a
+        href="mailto:contact@muhammadrabi.com"
+        className="mt-5 text-white bg-main btn"
+      >
         hire me
       </a>
       <div className="social-icons">
@@ -54,7 +57,7 @@ function HeroText() {
         </a>
       </div>
     </div>
-  )
+  );
 }
 
-export default HeroText
+export default HeroText;
