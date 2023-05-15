@@ -1,6 +1,6 @@
 const ServiceItem = ({ image, title, description }) => {
   return (
-    <article className="card hover:bg-gray-900 hover:text-darker group relative py-12 bg-gray-50 cursor-pointer duration-500 text-center min-w-[320px]">
+    <article className="card hover:bg-gray-900 hover:text-darker group relative py-12 bg-gray-50 cursor-pointer duration-500 text-center min-w-[320px] max-w-sm mx-auto">
       <img
         src={image}
         className="object-cover w-24 mx-auto my-6 duration-500 group-hover:invert"

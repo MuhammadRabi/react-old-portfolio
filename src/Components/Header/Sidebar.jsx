@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { FaRegWindowClose, FaAlignJustify } from "react-icons/fa";
-
 import { links } from "./links";
 import SidebarItem from "./SidebarItem";
+
 const Sidebar = () => {
   const [showSidebar, setShowSidebar] = useState(false);
   return (

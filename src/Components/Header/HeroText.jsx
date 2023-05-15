@@ -1,63 +1,43 @@
-import React from "react";
-import {
-  FaFacebookSquare,
-  FaLinkedin,
-  FaGithubSquare,
-  FaYoutube,
-} from "react-icons/fa";
+import { socialLinks } from "./links";
 
-function HeroText() {
+const HeroText = () => {
   return (
-    <div className="text-center hero-text">
-      <p>
-        <span className="text-main">Hello</span>, I`m
+    <article className="flex flex-col w-full p-4 space-y-8 text-center md:text-left md:p-12 md:w-1/2">
+      <p className="m-0">
+        <span className="text-2xl font-bold text-main">Hello</span>, I`m
       </p>
-      <h1>Muhammad Rabi</h1>
+      <h1 className="text-3xl font-bold tracking-wide md:text-5xl">
+        Muhammad Rabi
+      </h1>
       <h2 className="mb-2">I`m a Front End Developer</h2>
-      <p>
-        I'm a Front-End Web Dev who can translate UI/UX design to modern code
-        and write maintainable, scalable, responsive, and cross-browser code.
-        Skilled in pixel-perfect PSD-to-HTML, CSS, SASS, JavaScript, and
-        Bootstrap
+      <p className="leading-loose">
+        I can translate UI/UX design to modern code and write maintainable,
+        scalable, responsive, and cross-browser code. Skilled in pixel-perfect
+        PSD-to-HTML, CSS, SASS, JavaScript, and Bootstrap
       </p>
       <a
         href="mailto:contact@muhammadrabi.com"
-        className="mt-5 text-white bg-main btn"
+        className="mx-auto mt-5 text-white md:mx-0 w-fit bg-main btn"
       >
         hire me
       </a>
-      <div className="social-icons">
-        <a
-          href="https://github.com/MuhammadRabi"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <FaGithubSquare />
-        </a>
-        <a
-          href="https://www.facebook.com/rabi9504/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <FaFacebookSquare />
-        </a>
-        <a
-          href="https://www.youtube.com/c/MohamedRabi"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <FaYoutube />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/muhammad-rabi-07a51b202/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <FaLinkedin />
-        </a>
+      <div className="flex mx-auto space-x-2 md:mx-0">
+        {socialLinks.map((link) => {
+          return (
+            <a
+              key={link.id}
+              href={link.link}
+              rel="noreferrer"
+              target="_blank"
+              className="text-3xl duration-300 rounded-full text-dark hover:opacity-70"
+            >
+              {<link.icon />}
+            </a>
+          );
+        })}
       </div>
-    </div>
+    </article>
   );
-}
+};
 
 export default HeroText;

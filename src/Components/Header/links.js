@@ -1,32 +1,57 @@
+import {
+  FaTwitter,
+  FaLinkedinIn,
+  FaGithubAlt,
+  FaYoutube,
+} from "react-icons/fa";
+
 export const links = [
   {
     id: 1,
     link: "#hero",
     text: "home",
-    dataLink: ".hero",
   },
   {
     id: 2,
     link: "#about",
     text: "about me",
-    dataLink: ".about-us",
   },
   {
     id: 3,
     link: "#services",
     text: "services",
-    dataLink: ".our-services",
   },
   {
     id: 4,
     link: "#faq",
     text: "FAQ",
-    dataLink: ".faq",
   },
   {
     id: 5,
     link: "#recent-works",
     text: "recent projects",
-    dataLink: ".recent-works",
+  },
+];
+
+export const socialLinks = [
+  {
+    id: 1,
+    link: "https://github.com/MuhammadRabi",
+    icon: FaGithubAlt,
+  },
+  {
+    id: 2,
+    link: "https://www.linkedin.com/in/muhammad-rabi-07a51b202/",
+    icon: FaLinkedinIn,
+  },
+  {
+    id: 3,
+    link: "https://www.youtube.com/c/MohamedRabi",
+    icon: FaYoutube,
+  },
+  {
+    id: 4,
+    link: "https://twitter.com/MuhammadRabi_",
+    icon: FaTwitter,
   },
 ];

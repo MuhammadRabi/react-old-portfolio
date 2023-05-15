@@ -1,19 +1,18 @@
 import React from "react";
 import Sidebar from "./Sidebar";
-import SidebarOverlay from "./SidebarOverlay";
+import CoverImage from "./CoverImage";
 import HeroText from "./HeroText";
-import "./Header.scss";
 
-function Header() {
+const Header = () => {
   return (
     <header>
-      <div className="hero">
-        <Sidebar />
-        <SidebarOverlay />
+      <Sidebar />
+      <div className="flex flex-col items-center justify-around h-screen md:flex-row">
+        <CoverImage />
         <HeroText />
       </div>
     </header>
   );
-}
+};
 
 export default Header;

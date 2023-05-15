@@ -4,7 +4,10 @@ import coverImage from "../assets/images/bg1.jpg";
 
 const About = () => {
   return (
-    <section className="text-white bg-darkest page-container about-us">
+    <section
+      className="text-white bg-darkest page-container about-us"
+      id="about"
+    >
       <SectionTitle title="about me" dark />
       <div className="flex flex-col justify-between mt-12 content lg:flex-row">
         <div className="flex-1 order-2 pl-10 my-20 leading-loose text-left about-text">

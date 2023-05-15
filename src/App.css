@@ -19,15 +19,16 @@ html {
   --main-bg-clr: #fff;
   --btn-clr: #00bcd4;
 }
+@media screen and (max-width: 991px) {
+  section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 
-
-/* 
-.main-text {
-  width: 50%;
-  margin: auto;
-  text-align: center;
-  text-transform: capitalize;
-} */
+  input {
+    width: 96%;
+  }
+}
 
 @media screen and (max-width: 678px) {
   .main-text {
@@ -57,44 +58,6 @@ section {
   font-weight: 700;
 }
 /* global rules */
-.body {
-  color: var(--main-fg-clr);
-  /*   overflow-x: hidden;
- */
-}
-
-/* toolbox */
-
-.toolbox h2 {
-  margin: auto;
-  color: var(--btn-clr);
-
-  width: -webkit-fit-content;
-
-  width: -moz-fit-content;
-
-  width: fit-content;
-  position: relative;
-}
-.toolbox-grid {
-  display: -ms-grid;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(85px, 1fr));
-  gap: 30px;
-}
-
-.skill-box {
-  border: 1px solid #ccc;
-  text-align: center;
-  margin-top: 50px;
-  padding: 20px;
-  border-radius: 5px;
-}
-
-.skill-box i {
-  color: var(--btn-clr);
-  font-size: 42px;
-}
 
 .vid .container {
   display: flex;
@@ -119,3 +82,17 @@ iframe {
         grid-template-rows: 1fr;
       }
     
+
+  .menu-toggle {
+              background-size: 30px;
+              background-position: center;
+              background-repeat: no-repeat;
+              top: 30px;
+              right: 30px;
+              width: 50px;
+              height: 50px;
+              font-size: 36px;
+              transition: 0.1s ease-in-out;
+              z-index: 1001;
+              cursor: pointer;
+            }
