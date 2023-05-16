@@ -1,13 +1,13 @@
 import img01 from "../../assets/images/01.jpeg";
 import img02 from "../../assets/images/02.jpeg";
 import img03 from "../../assets/images/03.jpg";
-import img04 from "../../assets/images/10.jpg";
-import img05 from "../../assets/images/05.jpeg";
-import img06 from "../../assets/images/06.jpeg";
-import img07 from "../../assets/images/colorful-hero.jpeg";
-import img08 from "../../assets/images/08.jpg";
-import img09 from "../../assets/images/09.jpg";
-import img10 from "../../assets/images/04.jpg";
+import img04 from "../../assets/images/10.webp";
+import img05 from "../../assets/images/05.webp";
+import img06 from "../../assets/images/06.webp";
+import img07 from "../../assets/images/colorful-hero.webp";
+import img08 from "../../assets/images/08.webp";
+import img09 from "../../assets/images/09.webp";
+import img10 from "../../assets/images/04.webp";
 
 const projectData = [
   {

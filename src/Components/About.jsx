@@ -1,6 +1,6 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
-import coverImage from "../assets/images/bg1.jpg";
+import coverImage from "../assets/images/bg1.webp";
 
 const About = () => {
   return (

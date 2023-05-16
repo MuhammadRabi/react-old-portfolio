@@ -1,40 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-/* my styles */
+
 
 html {
   scroll-behavior: smooth;
-}
+}  
+
 
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 0; 
   font-family: "Poppins", sans-serif;
+}  
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-:root {
-  --main-fg-clr: #1b1b1b;
-  --light-fg-clr: #bebaba;
-  --second-fg-clr: #333;
-  --main-bg-clr: #fff;
-  --btn-clr: #00bcd4;
-}
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 991px) {
   section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }  
 
-  input {
-    width: 96%;
-  }
-}
+}  
 
-@media screen and (max-width: 678px) {
-  .main-text {
-    width: 90%;
-  }
-}
+
 
 .btn {
   color: #fff;
@@ -46,30 +38,7 @@ html {
   text-transform: capitalize;
   text-align: center;
   cursor: pointer;
-}
-
-section {
-  padding-top: 75px;
-  padding-bottom: 75px;
-}
-
-.main-heading {
-  font-size: 24px;
-  font-weight: 700;
-}
-/* global rules */
-
-.vid .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-iframe {
-  width: 560px;
-  height: 315px;
-  border: 0;
-}
+}  
 
 
 
@@ -78,9 +47,9 @@ iframe {
   }
 
 
-    .accordion-body.active {
+  .accordion-body.active {
         grid-template-rows: 1fr;
-      }
+  }
     
 
   .menu-toggle {

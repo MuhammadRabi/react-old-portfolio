@@ -28,7 +28,7 @@ export const links = [
   },
   {
     id: 5,
-    link: "#recent-works",
+    link: "#projects",
     text: "recent projects",
   },
 ];
@@ -37,21 +37,25 @@ export const socialLinks = [
   {
     id: 1,
     link: "https://github.com/MuhammadRabi",
+    aria: "github-link",
     icon: FaGithubAlt,
   },
   {
     id: 2,
     link: "https://www.linkedin.com/in/muhammad-rabi-07a51b202/",
+    aria: "linkedin-link",
     icon: FaLinkedinIn,
   },
   {
     id: 3,
     link: "https://www.youtube.com/c/MohamedRabi",
+    aria: "youtube-link",
     icon: FaYoutube,
   },
   {
     id: 4,
     link: "https://twitter.com/MuhammadRabi_",
+    aria: "twiter-link",
     icon: FaTwitter,
   },
 ];

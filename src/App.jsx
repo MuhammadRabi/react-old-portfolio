@@ -5,10 +5,10 @@ import About from "./Components/About";
 import Services from "./Components/Services/Services";
 import Faq from "./Components/Faq/Faq";
 import Platform from "./Components/Platform/Platform";
-import Projects from "./Components/Projects/Projects";
-import Video from "./Components/Video";
 import Footer from "./Components/Footer";
 import Scroll from "./Components/UI/Scroll";
+import { lazy, Suspense } from "react";
+const Projects = lazy(() => import("./Components/Projects/Projects"));
 
 function App() {
   return (
@@ -17,9 +17,10 @@ function App() {
       <About />
       <Services />
       <Faq />
-      <Projects />
+      <Suspense fallback={<p>loading ...</p>}>
+        <Projects />
+      </Suspense>
       <Platform />
-      <Video />
       <Footer />
       <Scroll />
     </>

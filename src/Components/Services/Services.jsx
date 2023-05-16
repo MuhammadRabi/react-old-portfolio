@@ -5,7 +5,7 @@ import SectionIntro from "../SectionIntro";
 
 const Services = () => {
   return (
-    <section className="page-container our-services">
+    <section className="page-container our-services" id="services">
       <SectionTitle title="our services" />
       <SectionIntro
         content=" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos illo

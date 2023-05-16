@@ -6,7 +6,7 @@ function PlatformItem({ image, title, url }) {
       <img
         src={image}
         alt={title}
-        className="object-cover mx-auto duration-300 cursor-pointer w-72 grayscale hover:grayscale-0 "
+        className="object-cover mx-auto duration-300 cursor-pointer hover:scale-105 w-72 "
       />
     </a>
   );

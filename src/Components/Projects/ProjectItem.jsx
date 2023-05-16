@@ -11,16 +11,6 @@ function ProjectItem({ url, repo, image }) {
       <div className="z-30 flex justify-around w-10/12 py-8 mx-auto mt-6 md:w-3/4 project-btns ">
         <Btn title="view code" link={repo} />
         <Btn title="visit website" link={url} />
-        {/*  <button>
-          <a href={repo} rel="noreferrer" target="_blank">
-            view code
-          </a>
-        </button>
-        <button>
-          <a href={url} rel="noreferrer" target="_blank">
-            visit website
-          </a>
-        </button> */}
       </div>
     </article>
   );

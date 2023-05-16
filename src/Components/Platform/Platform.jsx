@@ -9,14 +9,14 @@ const Platform = () => {
       <SectionTitle title="platforms" />
       <div className="grid items-center justify-center gap-12 mt-12 platform-grid grid-cols-320">
         <PlatformItem
-          image={upwork}
-          title="upwork"
-          url="https://www.upwork.com/freelancers/~01586210b75f2c3f8f"
-        />
-        <PlatformItem
           image={freelancer}
           title="freelancer"
           url="https://www.freelancer.com/u/MuhammadRabi"
+        />
+        <PlatformItem
+          image={upwork}
+          title="upwork"
+          url="https://www.upwork.com/freelancers/~01586210b75f2c3f8f"
         />
         <PlatformItem
           image={mostaql}

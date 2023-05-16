@@ -5,7 +5,7 @@ import SectionIntro from "../SectionIntro";
 
 function Projects() {
   return (
-    <section className="page-container recent-works bg-slate-50">
+    <section className="page-container recent-works bg-slate-50" id="projects">
       <div>
         <SectionTitle title="recent projects" />
         <SectionIntro

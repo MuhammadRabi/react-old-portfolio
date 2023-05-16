@@ -27,6 +27,7 @@ const HeroText = () => {
             <a
               key={link.id}
               href={link.link}
+              aria-label={link.aria}
               rel="noreferrer"
               target="_blank"
               className="text-3xl duration-300 rounded-full text-dark hover:opacity-70"
