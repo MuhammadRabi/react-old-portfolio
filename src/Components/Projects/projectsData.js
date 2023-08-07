@@ -1,15 +1,22 @@
-import img01 from "../../assets/images/01.jpeg";
-import img02 from "../../assets/images/02.jpeg";
-import img03 from "../../assets/images/03.jpg";
-import img04 from "../../assets/images/10.webp";
-import img05 from "../../assets/images/05.webp";
-import img06 from "../../assets/images/06.webp";
-import img07 from "../../assets/images/colorful-hero.webp";
-import img08 from "../../assets/images/08.webp";
-import img09 from "../../assets/images/09.webp";
-import img10 from "../../assets/images/04.webp";
+import img01 from "../../assets/images/01.jpeg"
+import img02 from "../../assets/images/02.jpeg"
+import img03 from "../../assets/images/03.jpg"
+import img04 from "../../assets/images/10.webp"
+import img05 from "../../assets/images/05.webp"
+import img06 from "../../assets/images/06.webp"
+import img07 from "../../assets/images/colorful-hero.webp"
+import img08 from "../../assets/images/08.webp"
+import img09 from "../../assets/images/09.webp"
+import img10 from "../../assets/images/04.webp"
+import img11 from "../../assets/images/img11.jpg"
 
 const projectData = [
+  {
+    id: 11,
+    repo: "https://github.com/MuhammadRabi/React-E-Commerce",
+    url: "https://react-e-commerce-inky.vercel.app/",
+    image: img11,
+  },
   {
     id: 1,
     repo: "https://github.com/MuhammadRabi/P20-Rapid",
@@ -71,5 +78,5 @@ const projectData = [
     url: "https://muhammadrabi.github.io/P22-Kasper/",
     image: img10,
   },
-];
-export default projectData;
+]
+export default projectData
