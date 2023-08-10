@@ -1,24 +1,25 @@
-import React, { useState, useEffect } from "react";
-import { BsFillArrowUpCircleFill } from "react-icons/bs";
+import React, { useState, useEffect } from "react"
+import { BsFillArrowUpCircleFill } from "react-icons/bs"
+import { motion } from "framer-motion"
 
 function Scroll() {
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(false)
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      window.scrollY > 600 ? setIsActive(true) : setIsActive(false);
-    });
+      window.scrollY > 600 ? setIsActive(true) : setIsActive(false)
+    })
     return () => {
-      window.removeEventListener("scroll");
-    };
-  }, []);
+      window.removeEventListener("scroll")
+    }
+  }, [])
 
   const scrollTop = () => {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
-    });
-  };
+    })
+  }
 
   return (
     <div className="fixed z-10 cursor-pointer right-6 bottom-6">
@@ -29,7 +30,7 @@ function Scroll() {
         />
       )}
     </div>
-  );
+  )
 }
 
-export default Scroll;
+export default Scroll
