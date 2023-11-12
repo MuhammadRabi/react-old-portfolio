@@ -9,6 +9,7 @@ import img08 from "../../assets/images/08.webp"
 import img09 from "../../assets/images/09.webp"
 import img10 from "../../assets/images/04.webp"
 import img11 from "../../assets/images/img11.jpg"
+import img12 from "../../assets/images/img12.jpg"
 
 const projectData = [
   {
@@ -47,6 +48,12 @@ const projectData = [
     repo: "https://github.com/MuhammadRabi/P26-DoopShapes",
     url: "https://muhammadrabi.github.io/P26-DoopShapes/",
     image: img05,
+  },
+  {
+    id: 12,
+    repo: "https://github.com/MuhammadRabi/react-darth-vader",
+    url: "https://p12-darth-vader.vercel.app",
+    image: img12,
   },
   {
     id: 6,
