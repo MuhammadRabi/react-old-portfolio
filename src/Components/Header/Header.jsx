@@ -1,12 +1,12 @@
-import React from "react";
-import Sidebar from "./Sidebar";
-import CoverImage from "./CoverImage";
-import HeroText from "./HeroText";
-import Logo from "./Logo";
+import React from "react"
+import Sidebar from "./Sidebar"
+import CoverImage from "./CoverImage"
+import HeroText from "./HeroText"
+import Logo from "./Logo"
 
 const Header = () => {
   return (
-    <header>
+    <header className="z-50">
       <Sidebar />
       <Logo />
       <div className="flex flex-col items-center justify-around h-screen md:flex-row">
@@ -14,7 +14,7 @@ const Header = () => {
         <HeroText />
       </div>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
