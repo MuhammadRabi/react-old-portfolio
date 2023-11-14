@@ -61,7 +61,7 @@ const HeroText = () => {
           delay: 0.2,
         }}
         href="mailto:contact@muhammadrabi.com"
-        className="mx-auto mt-5 text-white md:mx-0 w-fit bg-main btn"
+        className="mx-auto mt-5 text-white duration-200 md:mx-0 w-fit bg-main hover:bg-violet-800 btn"
       >
         hire me
       </motion.a>

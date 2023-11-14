@@ -13,7 +13,7 @@ function ProjectItem({ url, repo, image }) {
         className="relative flex flex-auto object-cover duration-500 rounded-sm grayscale hover:grayscale-0"
         alt="test01"
       />
-      <div className="z-30 flex justify-around w-10/12 py-8 mx-auto mt-6 md:w-3/4 project-btns ">
+      <div className="z-30 flex flex-col items-center justify-around w-1/2 py-4 mx-auto space-y-4 md:w-3/4 sm:items-baseline sm:flex-row">
         <Btn title="view code" link={repo} />
         <Btn title="visit website" link={url} />
       </div>

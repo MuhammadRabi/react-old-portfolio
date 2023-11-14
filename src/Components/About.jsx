@@ -1,6 +1,6 @@
-import React from "react";
-import SectionTitle from "./SectionTitle";
-import coverImage from "../assets/images/bg1.webp";
+import React from "react"
+import SectionTitle from "./SectionTitle"
+import coverImage from "../assets/images/bg1.webp"
 
 const About = () => {
   return (
@@ -9,8 +9,8 @@ const About = () => {
       id="about"
     >
       <SectionTitle title="about me" dark />
-      <div className="flex flex-col justify-between mt-12 content lg:flex-row">
-        <div className="flex-1 order-2 pl-10 my-20 leading-loose text-left about-text">
+      <div className="flex flex-col items-center justify-between mt-12 content lg:flex-row">
+        <div className="flex-1 order-2 px-4 my-20 leading-loose text-left md:px-16 about-text">
           <p>
             I like to code things from scratch, and enjoy bringing ideas to life
             in the browser. I'm interested in entire front end spectrum and
@@ -27,7 +27,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default About;
+export default About

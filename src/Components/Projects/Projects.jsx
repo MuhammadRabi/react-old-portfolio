@@ -1,7 +1,7 @@
-import ProjectItem from "./ProjectItem";
-import projectData from "./projectsData";
-import SectionTitle from "../SectionTitle";
-import SectionIntro from "../SectionIntro";
+import ProjectItem from "./ProjectItem"
+import projectData from "./projectsData"
+import SectionTitle from "../SectionTitle"
+import SectionIntro from "../SectionIntro"
 
 function Projects() {
   return (
@@ -13,14 +13,14 @@ function Projects() {
           mollitia quo, molestiae saepe totam iste nulla exercitationem unde
           maxime!"
         />
-        <div className="grid gap-10 mt-12 card-container grid-cols-320">
+        <div className="grid grid-cols-1 gap-10 mt-12 lg:grid-cols-2 2xl:grid-cols-3 2xl:gap-24">
           {projectData.map((project) => {
-            return <ProjectItem key={project.id} {...project} />;
+            return <ProjectItem key={project.id} {...project} />
           })}
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default Projects;
+export default Projects
