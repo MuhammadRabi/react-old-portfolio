@@ -14,8 +14,8 @@ function ProjectItem({ url, repo, image }) {
         alt="test01"
       />
       <div className="z-30 flex flex-col items-center justify-around w-1/2 py-4 mx-auto space-y-4 md:w-3/4 sm:items-baseline sm:flex-row">
-        <Btn title="view code" link={repo} />
-        <Btn title="visit website" link={url} />
+        <Btn title="Code" link={repo} />
+        <Btn title="demo" link={url} />
       </div>
     </motion.article>
   )
