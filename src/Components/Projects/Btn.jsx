@@ -10,6 +10,6 @@ const Btn = ({ link, title }) => {
         {title}
       </a>
     </button>
-  );
-};
-export default Btn;
+  )
+}
+export default Btn

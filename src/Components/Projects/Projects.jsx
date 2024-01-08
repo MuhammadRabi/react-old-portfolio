@@ -1,7 +1,7 @@
 import ProjectItem from "./ProjectItem"
-import projectData from "./projectsData"
 import SectionTitle from "../SectionTitle"
 import SectionIntro from "../SectionIntro"
+import projectData from "../../constants/projectsData"
 
 function Projects() {
   return (
