@@ -36,9 +36,9 @@ function ProjectItem({ url, repo, image, title, tools }) {
       </div>
       {/* expiremntal  */}
 
-      <div className="flex justify-around py-8">
-        <Btn title="Code" link={repo} />
+      <div className="flex px-8 gap-4 py-8">
         <Btn title="Live preview" link={url} />
+        <Btn title="Code" link={repo} />
       </div>
     </motion.article>
   )
