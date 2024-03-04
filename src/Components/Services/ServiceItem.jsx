@@ -20,7 +20,7 @@ const ServiceItem = ({ image, title, description }) => {
       <h3 className="mb-6 text-xl font-bold capitalize group-hover:text-main">
         {title}
       </h3>
-      <p className="px-4">{description}</p>
+      <p className="px-4 leading-relaxed text-gray-500">{description}</p>
       <span className="absolute top-0 left-0 w-1 h-0 duration-500 bg-main group-hover:h-full"></span>
       <span className="absolute bottom-0 right-0 w-1 h-0 duration-500 bg-main group-hover:h-full"></span>
     </motion.article>

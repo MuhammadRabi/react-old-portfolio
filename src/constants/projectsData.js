@@ -18,6 +18,7 @@ const projectData = [
     url: "https://react-e-commerce-inky.vercel.app/",
     image: img11,
     tools: ["react", "zustand", "framer motion"],
+    desc: "E-commerce website with cart functionality",
   },
   {
     id: 1,
@@ -26,6 +27,7 @@ const projectData = [
     url: "https://muhammadrabi.github.io/P20-Rapid/",
     image: img01,
     tools: ["HTML", "CSS", "javascript", "bootstrap"],
+    desc: "simple fully responsive and static landing page",
   },
   {
     id: 2,
@@ -34,6 +36,7 @@ const projectData = [
     url: "https://muhammadrabi.github.io/P24-Luxe/",
     image: img02,
     tools: ["HTML", "SASS", "javascript", "bootstrap"],
+    desc: "simple fully responsive landing page",
   },
   {
     id: 3,
@@ -42,6 +45,7 @@ const projectData = [
     url: "https://muhammadrabi.github.io/P27-GreenRent/",
     image: img03,
     tools: ["HTML", "CSS", "javascript"],
+    desc: "simple fully responsive landing page",
   },
   {
     id: 4,
@@ -50,6 +54,7 @@ const projectData = [
     url: "https://muhammadrabi.github.io/P15-Watches/",
     image: img04,
     tools: ["HTML", "CSS", "javascript"],
+    desc: "simple fully responsive landing page",
   },
 
   {
@@ -59,14 +64,16 @@ const projectData = [
     url: "https://muhammadrabi.github.io/P26-DoopShapes/",
     image: img05,
     tools: ["HTML", "CSS", "javascript"],
+    desc: "simple fully responsive landing page",
   },
   {
     id: 12,
-    title: "landing page",
+    title: "multi-page react website",
     repo: "https://github.com/MuhammadRabi/react-darth-vader",
     url: "https://p12-darth-vader.vercel.app",
     image: img12,
-    tools: ["styled components", "react router"],
+    tools: ["react", "react router"],
+    desc: "simple fully responsive landing page",
   },
   {
     id: 6,
@@ -75,6 +82,7 @@ const projectData = [
     url: "https://muhammadrabi.github.io/P25-Bondi/",
     image: img06,
     tools: ["HTML", "CSS", "javascript"],
+    desc: "simple fully responsive landing page",
   },
   {
     id: 7,
@@ -83,14 +91,16 @@ const projectData = [
     url: "https://muhammadrabi.github.io/P21-Leon/",
     image: img07,
     tools: ["HTML", "CSS", "javascript"],
+    desc: "fully responsive page across all devices.",
   },
   {
     id: 8,
-    title: "resturante",
+    title: "resturante landing page",
     repo: "https://github.com/MuhammadRabi/P17-FoodPrototype",
     url: "https://muhammadrabi.github.io/P17-FoodPrototype/",
     image: img08,
     tools: ["HTML", "CSS", "javascript"],
+    desc: "Arabic fully responsive page for a restaurant",
   },
 
   {
@@ -100,6 +110,7 @@ const projectData = [
     url: "https://muhammadrabi.github.io/P22-Kasper/",
     image: img10,
     tools: ["HTML", "CSS", "javascript"],
+    desc: "simple fully responsive landing page",
   },
 ]
 export default projectData

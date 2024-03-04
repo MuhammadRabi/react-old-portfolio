@@ -1,7 +1,7 @@
 import Btn from "./Btn"
 import { motion } from "framer-motion"
 
-function ProjectItem({ url, repo, image, title, tools }) {
+function ProjectItem({ url, repo, image, title, tools, desc }) {
   return (
     <motion.article
       initial={{ x: -100, scale: 0.9 }}
@@ -20,9 +20,7 @@ function ProjectItem({ url, repo, image, title, tools }) {
         <h2 className="mt-2 text-lg font-bold text-left capitalize text-main">
           {title}
         </h2>
-        <p className="text-xs text-slate-400">
-          simple fully responsive landing page
-        </p>
+        <p className="text-xs capitalize text-slate-400 ">{desc}</p>
         <div className="flex flex-wrap gap-2">
           {tools.map((tech) => (
             <p
@@ -36,7 +34,7 @@ function ProjectItem({ url, repo, image, title, tools }) {
       </div>
       {/* expiremntal  */}
 
-      <div className="flex px-8 gap-4 py-8">
+      <div className="flex gap-4 px-8 py-8">
         <Btn title="Live preview" link={url} />
         <Btn title="Code" link={repo} />
       </div>
