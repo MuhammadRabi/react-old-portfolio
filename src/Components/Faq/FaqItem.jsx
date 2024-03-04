@@ -1,15 +1,15 @@
-import React, { useState } from "react";
-import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
+import React, { useState } from "react"
+import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai"
 
 function FaqItem({ question, answer }) {
-  const [showAnswer, setShowAnswer] = useState(false);
+  const [showAnswer, setShowAnswer] = useState(false)
   return (
     <article className="accordion-item rounded-md bg-[#fdfdfd] mb-5 p-3">
       <div
         className="flex items-center justify-between p-4 border-2 border-transparent cursor-pointer accordion-header dounded-lg "
         onClick={() => setShowAnswer(!showAnswer)}
       >
-        <h2 className="font-semibold">{question}</h2>
+        <h2 className="text-xl font-semibold">{question}</h2>
         {showAnswer ? (
           <AiOutlineMinus className="text-2xl" />
         ) : (
@@ -26,9 +26,9 @@ function FaqItem({ question, answer }) {
         </p>
       </div>
     </article>
-  );
+  )
 }
 
-export default FaqItem;
+export default FaqItem
 
 //

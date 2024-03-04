@@ -17,7 +17,7 @@ const ServiceItem = ({ image, title, description }) => {
         className="object-cover w-24 mx-auto my-6 duration-500 group-hover:invert"
         alt="serviceImage"
       />
-      <h3 className="mb-6 text-xl font-bold capitalize group-hover:text-main">
+      <h3 className="mb-6 text-2xl font-bold capitalize group-hover:text-main">
         {title}
       </h3>
       <p className="px-4 leading-relaxed text-gray-500">{description}</p>
