@@ -6,7 +6,7 @@ function ProjectItem({ url, repo, image, title, tools, desc }) {
     <motion.article
       initial={{ x: -100, scale: 0.9 }}
       whileInView={{ x: 0, scale: 1 }}
-      className="flex flex-col max-w-sm mx-auto duration-300 bg-white border border-gray-300 shadow-md cursor-pointer rounded-2xl hover:translate-y-2"
+      className="flex flex-col max-w-sm mx-auto duration-300 bg-white border border-gray-300 shadow-md rounded-2xl hover:translate-y-2"
     >
       <figure className="h-48 overflow-hidden rounded-t-2xl">
         <img

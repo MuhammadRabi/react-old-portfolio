@@ -9,8 +9,24 @@ import img08 from "../assets/images/08.webp"
 import img10 from "../assets/images/04.webp"
 import img11 from "../assets/images/img11.jpg"
 import img12 from "../assets/images/img12.jpg"
+import img13 from "../assets/images/13.webp"
 
 const projectData = [
+  {
+    id: 19,
+    title: "SPA Website",
+    repo: "https://github.com/MuhammadRabi/amigos",
+    url: "https://amigos-omega.vercel.app/",
+    image: img13,
+    tools: [
+      "Next.JS",
+      "Framer Motion",
+      "Responsive",
+      "Typescript",
+      "Tailwind CSS",
+    ],
+    desc: "website for a freelancer job",
+  },
   {
     id: 11,
     title: "e-commerce",
