@@ -4,7 +4,7 @@ import coverImage from "../assets/images/bg1.webp"
 const About = () => {
   return (
     <section
-      className="text-white lg:h-screen bg-darkest page-container about-us"
+      className="text-white lg:h-screen bg-dark page-container about-us"
       id="about"
     >
       <SectionTitle title="about me" dark />
@@ -24,7 +24,7 @@ const About = () => {
         <div className="flex-1 order-1 about-image">
           <img
             src={coverImage}
-            className="object-cover rounded-sm"
+            className="object-cover border border-gray-700 rounded-sm"
             alt="rabi-cover-image"
           />
         </div>

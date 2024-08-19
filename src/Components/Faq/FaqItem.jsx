@@ -23,7 +23,7 @@ function FaqItem({ question, answer }) {
           showAnswer ? "active" : ""
         }`}
       >
-        <p className="overflow-hidden px-5 py-2 leading-relaxed text-sm md:text-base text-[#646464]">
+        <p className="overflow-hidden px-5 py-2 leading-relaxed text-sm md:text-base text-[#333]">
           {answer}
         </p>
       </div>

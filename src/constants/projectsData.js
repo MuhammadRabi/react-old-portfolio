@@ -37,7 +37,7 @@ const projectData = [
     repo: "https://github.com/MuhammadRabi/clerk-app",
     url: "https://clerk-app.vercel.app",
     image: clerk,
-    tools: ["Next.JS", "Clerk", "Stripe", "chadcn"],
+    tools: ["Next.JS", "Clerk", "Stripe", "shadcn"],
     desc: "a store with payment integration & authentication and webhook",
   },
   {

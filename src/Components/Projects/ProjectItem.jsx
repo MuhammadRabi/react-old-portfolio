@@ -15,12 +15,11 @@ function ProjectItem({ url, repo, image, title, tools, desc }) {
           alt="test01"
         />
       </figure>
-      {/* expiremntal  */}
-      <div className="w-full px-8 space-y-2">
+      <div className="flex flex-col justify-start flex-1 w-full px-8 space-y-2">
         <h2 className="mt-2 text-lg font-bold text-left capitalize text-main">
           {title}
         </h2>
-        <p className="text-xs capitalize text-slate-400 ">{desc}</p>
+        <p className="flex flex-1 text-xs capitalize text-slate-400">{desc}</p>
         <div className="flex flex-wrap gap-2">
           {tools.map((tech) => (
             <p
