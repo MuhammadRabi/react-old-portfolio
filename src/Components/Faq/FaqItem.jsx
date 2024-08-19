@@ -4,12 +4,14 @@ import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai"
 function FaqItem({ question, answer }) {
   const [showAnswer, setShowAnswer] = useState(false)
   return (
-    <article className="accordion-item rounded-md bg-[#fdfdfd] mb-5 p-3">
+    <article className="accordion-item rounded-md bg-[#fdfdfd] mb-5">
       <div
         className="flex items-center justify-between p-4 border-2 border-transparent cursor-pointer accordion-header dounded-lg "
         onClick={() => setShowAnswer(!showAnswer)}
       >
-        <h2 className="text-xl font-semibold">{question}</h2>
+        <h2 className="text-sm font-semibold md:text-base text-slate-600">
+          {question}
+        </h2>
         {showAnswer ? (
           <AiOutlineMinus className="text-2xl" />
         ) : (
@@ -21,7 +23,7 @@ function FaqItem({ question, answer }) {
           showAnswer ? "active" : ""
         }`}
       >
-        <p className="overflow-hidden px-5 leading-relaxed text-[#646464]">
+        <p className="overflow-hidden px-5 py-2 leading-relaxed text-sm md:text-base text-[#646464]">
           {answer}
         </p>
       </div>
