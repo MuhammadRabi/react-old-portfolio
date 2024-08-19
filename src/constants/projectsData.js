@@ -18,13 +18,7 @@ const projectData = [
     repo: "https://github.com/MuhammadRabi/amigos",
     url: "https://amigos-omega.vercel.app/",
     image: img13,
-    tools: [
-      "Next.JS",
-      "Framer Motion",
-      "Responsive",
-      "Typescript",
-      "Tailwind CSS",
-    ],
+    tools: ["Next.JS", "Framer Motion", "Tailwind CSS"],
     desc: "website for a freelancer job",
   },
   {
