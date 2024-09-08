@@ -1,9 +1,9 @@
 import {
-  FaTwitter,
   FaLinkedinIn,
-  FaGithubAlt,
   FaYoutube,
-} from "react-icons/fa";
+  FaGithubSquare,
+  FaWhatsapp,
+} from "react-icons/fa"
 
 export const links = [
   {
@@ -31,14 +31,14 @@ export const links = [
     link: "#projects",
     text: "recent projects",
   },
-];
+]
 
 export const socialLinks = [
   {
     id: 1,
     link: "https://github.com/MuhammadRabi",
     aria: "github-link",
-    icon: FaGithubAlt,
+    icon: FaGithubSquare,
   },
   {
     id: 2,
@@ -53,9 +53,9 @@ export const socialLinks = [
     icon: FaYoutube,
   },
   {
-    id: 4,
-    link: "https://twitter.com/MuhammadRabi_",
-    aria: "twiter-link",
-    icon: FaTwitter,
+    id: 3,
+    link: "https://wa.me/201066940972",
+    aria: "whatsapp-chat",
+    icon: FaWhatsapp,
   },
-];
+]
