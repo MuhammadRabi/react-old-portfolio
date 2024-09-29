@@ -1,5 +1,6 @@
 import "./App.css"
 import "./index.css"
+import { Analytics } from "@vercel/analytics/react"
 import Header from "./Components/Header/Header"
 import About from "./Components/About"
 import Services from "./Components/Services/Services"
@@ -37,6 +38,7 @@ function App() {
       <Platform />
       <Footer />
       <Scroll />
+      <Analytics />
     </>
   )
 }
