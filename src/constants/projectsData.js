@@ -11,8 +11,18 @@ import commerce from "../assets/images/img11.jpg"
 import zero from "../assets/images/img12.jpg"
 import amigos from "../assets/images/13.webp"
 import clerk from "../assets/images/clerk.webp"
+import intunebytes from "../assets/images/intunebytes.webp"
 
 const projectData = [
+  {
+    id: 20,
+    title: "WordPress Blog",
+    repo: "https://github.com/MuhammadRabi",
+    url: "https://intunebytes.com/",
+    image: intunebytes,
+    tools: ["WordPress", "RankMath", "GSC"],
+    desc: "WP Blog for Microsoft Intune",
+  },
   {
     id: 19,
     title: "SPA Website",
