@@ -12,8 +12,18 @@ import zero from "../assets/images/img12.jpg"
 import amigos from "../assets/images/13.webp"
 import clerk from "../assets/images/clerk.webp"
 import intunebytes from "../assets/images/intunebytes.webp"
+import egypetsco from "../assets/images/egypetsco.webp"
 
 const projectData = [
+  {
+    id: 21,
+    title: "Business Company",
+    repo: "https://github.com/MuhammadRabi",
+    url: "https://egypetsco.com/",
+    image: egypetsco,
+    tools: ["WordPress", "SEO", "responsive"],
+    desc: "WP for pet care business",
+  },
   {
     id: 20,
     title: "WordPress Blog",
